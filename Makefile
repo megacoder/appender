@@ -1,6 +1,6 @@
 # vim: ts=8 sw=8
 
-CC	=ccache gcc -march=i686
+CC	=gcc -mtune=native
 OPT	=-Os
 CFLAGS	=${OPT} -Wall -Werror -pedantic -g
 LDFLAGS	=-g
